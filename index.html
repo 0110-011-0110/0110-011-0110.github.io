@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCARG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 数据流背景 -->
+    <div class="data-stream-background"></div>
+    
+    <!-- 标题区域 -->
+    <header class="site-header">
+        <div class="header-container">
+            <div class="title-image-container">
+                <img src="images/title.png" alt="MCART" class="title-image" id="titleImage">
+            </div>
+        </div>
+    </header>
+    
+    <!-- 自适应视频容器 -->
+    <div class="adaptive-video-container">
+        <!-- 视频网格 -->
+        <div class="video-grid" id="videoGrid"></div>
+    </div>
+    
+    <!-- 视频模态框 -->
+    <div class="video-modal" id="videoModal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="modal-video-container">
+                <video id="modalVideo" controls autoplay>
+                    <source src="" type="video/mp4">
+                    您的浏览器不支持视频播放。
+                </video>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 视频计数器 -->
+    <div class="video-counter" id="videoCounter">0</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
