@@ -14,6 +14,11 @@ const videos = [
         id: 3,
         videoFile: "assets/videos/day_160_2.mp4",
         thumbnail: "thumbnails/day_160_2.png"
+    },
+    {
+        id: 4,
+        videoFile: "assets/videos/day_170.mp4",
+        thumbnail: "thumbnails/day_170.png"
     }
 ];
 
@@ -315,4 +320,5 @@ modalVideo.addEventListener('ended', function() {
     if (currentVideoIndex < videos.length - 1) {
         setTimeout(nextVideo, 1000);
     }
+
 });
