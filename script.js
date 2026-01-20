@@ -19,6 +19,11 @@ const videos = [
         id: 4,
         videoFile: "assets/videos/day_170.mp4",
         thumbnail: "thumbnails/day_170.png"
+    }，
+    {
+        id: 5,
+        videoFile: "assets/videos/day_320.mp4",
+        thumbnail: "thumbnails/day_320.png"
     }
 ];
 
@@ -322,3 +327,4 @@ modalVideo.addEventListener('ended', function() {
     }
 
 });
+
